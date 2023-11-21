@@ -6,8 +6,9 @@
     <title>PHP</title>
 </head>
 <body>
-    <?php echo 'Utilizando a tag padrão'; ?>
-    <br>
-    <?= 'Utilizando a tag de impressão'; ?>
+    <?php
+        echo 'Comando echo <hr/>';
+        echo print('Comando print');
+     ?>
 </body>
 </html>
