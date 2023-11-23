@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+
         //== Semelhante
         //=== Idêntico
         //!= OU <> Diferente
@@ -16,7 +17,19 @@
         //>= Maior ou igual que
         //<= Menor ou igual que
 
-        if (1 >= '2') echo 'Verdadeiro'; else echo 'Falso';
+        /* if (1 >= '2') echo 'Verdadeiro'; else echo 'Falso'; */
+
+
+        //AND ou && Operador E
+        //OR ou || Operador OU
+        //XOR Operador XOR
+        //! Operador de NEGAÇÃO
+
+        if (!(4 == '4' AND 5 > 3)) {
+            echo 'Verdadeiro';
+        } else {
+            echo 'Falso';
+        }
         
         
      ?>
